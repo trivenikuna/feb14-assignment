@@ -1,0 +1,13 @@
+find number of digits in a given number
+n=int(input('enter any number :'))
+count=0
+while n>0:
+      rem=n%10
+      if rem!=0:
+          count=count++1
+          n=n//10
+print('no of digits in given number :',count) 
+
+output:
+enter any number:783
+no of digits in given number:3
